@@ -4,24 +4,24 @@ services:
     # PHP Service 
     php: 
         build:
-            context:  .  # references the current directory
+            context: .  # references the current directory
             target: php
             args: 
                 - APP_ENV=${APP_ENV}
-            environment:
-              - APP_ENV=${APP_ENV}
-              - CONTAINER_ROLE=app
-            working_dir: /var/www
-            volumes: 
-                - ./:/var/www
+        environment:
+            - APP_ENV=${APP_ENV}
+            - CONTAINER_ROLE=app
+        working_dir: /var/www
+        volumes: 
+            - ./:/var/www
 
-            ports:
-                - 8000:8000
+        ports:
+            - 8000:8000
 
             # ensures that the php container is created AFTER the db and redis ones
-            depends_on:
-                - database
-                - redis
+        depends_on:
+            - database
+            - redis
              
     # Database Server
     database:
