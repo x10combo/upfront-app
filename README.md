@@ -4,5 +4,5 @@ If you are reading this, this is a placeholder for a future project's documentat
 is to showcase personal knowledge regarding these technologies.
 
 
-Project is functional but momentarily I am running into issues with laravel so it won't load. To be fixed soon.
+Backend but momentarily I am running into issues with laravel and ports so it won't load. To be fixed soon.
 
