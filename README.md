@@ -4,5 +4,5 @@ If you are reading this, this is a placeholder for a future project's documentat
 is to showcase personal knowledge regarding these technologies.
 
 
-Backend but momentarily I am running into issues with laravel and ports so it won't load. To be fixed soon.
+Backend is finished, however I am running into issues with laravel and ports so it won't load on a browser. To be fixed soon.
 
